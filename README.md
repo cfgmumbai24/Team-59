@@ -1,4 +1,4 @@
-# Team-59
+# Team-59 - Code-a-Cola
 # VOPA Teaching Assessment Automation
 
 ## Project Overview
@@ -35,18 +35,25 @@ This project aims to automate the assessment process for teachers at VOPA (Vowel
 3. Install Python backend dependencies:
     ```bash
     cd ml_model
-    ``` 
+    ```
+    Create a Virtual Environment (For MacOS)
+     ```bash
+    python3 -m venv myenv
+    ```
+      ```bash
+    source myenv/bin/activate
+    ```
     ```bash
     pip install -r requirements.txt
     ```
-4. Configure MongoDB: 
+5. Configure MongoDB: 
    - Set up a MongoDB database.
    - Update the connection string in the .env file in the server folder.
-5. Run the Flask application: 
+6. Run the Flask application: 
    ```bash
    python app.py
    ```
-6. Run the React frontend: 
+7. Run the React frontend: 
    ```bash
    npm start
    ```
@@ -54,7 +61,7 @@ This project aims to automate the assessment process for teachers at VOPA (Vowel
    ```bash
    npm run build
    ```
-7. Run the backend: 
+8. Run the backend: 
    ```bash
    node app.js
    ```
@@ -70,11 +77,23 @@ Make sure to follow these steps in order to properly set up and run the VOPA Tea
 3. View automated assessment results based on LCS, TFIDF, and Spacy.
 4. Track assessment history and progress over time.
 
+---
+![image](https://github.com/harshnayangithub/Navjeevan/assets/126700987/c0995c6e-4929-4962-831a-dcb16eeb6032)
+![image](https://github.com/harshnayangithub/Navjeevan/assets/126700987/4ea7753d-0ce5-4900-8b2b-9363a018568f)
 
+![image](https://github.com/harshnayangithub/Navjeevan/assets/126700987/fdae9aaa-d174-41dc-adbd-02e6e02d7a8b)
+![image](https://github.com/harshnayangithub/Navjeevan/assets/126700987/e3f39034-0978-4322-8eb7-e1698995dd09)
+![image](https://github.com/harshnayangithub/Navjeevan/assets/126700987/2a2eeeb4-5592-4a8c-9e18-f2befc041b4a)
+![image](https://github.com/harshnayangithub/Navjeevan/assets/126700987/641242f6-6dc8-4853-a3e9-72a04879eec0)
+
+![image](https://github.com/harshnayangithub/Navjeevan/assets/126700987/60ad5e9a-fe03-49bf-8fbd-40408f071e82)
+
+# Meet Our Team
+![team](https://github.com/harshnayangithub/Navjeevan/assets/126700987/22ceba2a-a421-4c08-a909-e33131bc15aa)
+---
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 - Special thanks to VOPA for the opportunity to work on this project and improve the teaching assessment process.
-
 ---
