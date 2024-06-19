@@ -33,12 +33,12 @@ This project aims to automate the assessment process for teachers at VOPA (Vowel
    npm install
    ```
 3. Install Python backend dependencies:
- ```bash
-   cd ml_model
-   ``` 
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    cd ml_model
+    ``` 
+    ```bash
+    pip install -r requirements.txt
+    ```
 4. Configure MongoDB: 
    - Set up a MongoDB database.
    - Update the connection string in the .env file in the server folder.
