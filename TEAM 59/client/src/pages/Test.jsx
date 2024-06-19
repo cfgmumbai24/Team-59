@@ -81,7 +81,7 @@ const Test = () => {
         <div>
           <div className="flex flex-col items-center justify-center h-screen p-4">
             <div className="bg-white shadow-2xl sh p-8 w-full max-w-lg rounded-lg shadow-lg text-center">
-              <h1 className="text-3xl font-bold mb-4">VOLA</h1>
+              <h1 className="text-3xl font-bold mb-4">VOPA Assesment</h1>
               <p className="text-lg mb-4">{test[ind].content}</p>
               {audioUrl && (
                 <audio controls className="my-4 w-full">
