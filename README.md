@@ -92,8 +92,8 @@ Make sure to follow these steps in order to properly set up and run the VOPA Tea
 
 ---
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
 
 ## Acknowledgements
-- Special thanks to VOPA for the opportunity to work on this project and improve the teaching assessment process.
+- Special thanks to VOPA for providing us with this opportunity to contribute to this project and enhance the teaching assessment process.
 ---
