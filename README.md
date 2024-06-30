@@ -111,7 +111,12 @@ This command will pull the necessary Docker images and start the frontend, backe
 ### Access the Application
 
 - Frontend: Open your browser and go to `http://localhost:3000`
+
+![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/7dcb6b2f-e11f-4f81-9761-756decd052c0)
+
 - Backend: The backend API will be accessible at `http://localhost:4000`
+
+![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/b7953c8b-f1ae-4680-860a-b40f358f68e2)
 
 ### Stopping the Application
 
@@ -121,9 +126,20 @@ To stop the running containers, press `Ctrl+C` in the terminal where `docker-com
 docker-compose down
 ```
 
+ Your Docker build logs will look something like this 
+
+![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/b69ca0cf-06de-4401-9161-791f5a7533a5)
+![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/c1392afc-3c6f-4a1b-9793-82754a209658)
+![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/3e46efe4-91cc-46bf-aa4f-979b492deb34)
+
+ Docker images are pulled from our dockerhub account
+ 
 ![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/4fb75d29-a01f-4315-ac31-85dbc6d0e8be)
 ![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/a7e3adb7-9ba1-4234-bdae-6f97f0ad3ad2)
 ![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/2ea1a657-49ec-4bb2-8a79-b77d6f41dc31)
+
+
+
 
 ---
 
@@ -136,6 +152,7 @@ Make sure to follow these steps in order to properly set up and run the VOPA Tea
 4. Track assessment history and progress over time.
 
 ---
+## SS of our Frontend
 ![image](https://github.com/harshnayangithub/Navjeevan/assets/126700987/c0995c6e-4929-4962-831a-dcb16eeb6032)
 ![image](https://github.com/harshnayangithub/Navjeevan/assets/126700987/4ea7753d-0ce5-4900-8b2b-9363a018568f)
 ![image](https://github.com/harshnayangithub/Navjeevan/assets/126700987/fdae9aaa-d174-41dc-adbd-02e6e02d7a8b)
