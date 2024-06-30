@@ -69,8 +69,66 @@ This project aims to automate the assessment process for teachers at VOPA (Vowel
    ```bash
    nodemon app.js
    ```
+## Running using Docker and Docker Compose
+
+1. Clone the repository: 
+   ```bash
+   git clone https://github.com/cfgmumbai24/Team-59.git
+   ```
+   ```bash
+   cd TEAM 59
+   ```
+## Prerequisites
+
+- Docker daemon installed on your local machine or Docker Desktop
+- Docker
+- Docker Compose
+
+
+## Running the Application
+
+Follow the steps below to pull the Docker images and run the application on your local machine.
+
+### Step 1: Set Environment Variables
+
+Create a `.env` file in the root directory of your project and add the following environment variables:
+
+```env
+MONGO_URL=mongodb://mongo:27017/your_database_name
+JWT_SECRET=your_jwt_secret
+```
+
+### Step 2: Run Docker Compose
+
+Navigate to the root directory where your `docker-compose.yml` file is present and run the following command:
+
+```sh
+docker-compose up
+```
+
+This command will pull the necessary Docker images and start the frontend, backend, and MongoDB services.
+
+### Access the Application
+
+- Frontend: Open your browser and go to `http://localhost:3000`
+- Backend: The backend API will be accessible at `http://localhost:4000`
+
+### Stopping the Application
+
+To stop the running containers, press `Ctrl+C` in the terminal where `docker-compose up` is running. To remove the containers, networks, and volumes created by Docker Compose, run:
+
+```sh
+docker-compose down
+```
+
+![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/4fb75d29-a01f-4315-ac31-85dbc6d0e8be)
+![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/a7e3adb7-9ba1-4234-bdae-6f97f0ad3ad2)
+![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/2ea1a657-49ec-4bb2-8a79-b77d6f41dc31)
+
+---
 
 Make sure to follow these steps in order to properly set up and run the VOPA Teaching Assessment Automation project.
+
 ## Usage
 1. Sign up or log in as a teacher.
 2. Automated assessments through audio.
@@ -89,6 +147,8 @@ Make sure to follow these steps in order to properly set up and run the VOPA Tea
 # Meet Our Team
 
 ![team](https://github.com/harshnayangithub/Navjeevan/assets/126700987/22ceba2a-a421-4c08-a909-e33131bc15aa)
+![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/ce2e7d6a-1527-4ead-884d-d10da8e8eca9)
+![image](https://github.com/harshnayangithub/Striver_Sheet_DSA/assets/126700987/6e3542a5-5150-48ac-bc14-eff3295eb113)
 
 ---
 ## License
