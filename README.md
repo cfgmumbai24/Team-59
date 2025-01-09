@@ -174,3 +174,4 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 ## Acknowledgements
 - Special thanks to VOPA for providing us with this opportunity to contribute to this project and enhance the teaching assessment process.
 ---
+ <br /> <br /> The code ("Code") in this repository was created solely by the student teams during a coding competition hosted by JPMorgan Chase Bank, N.A. ("JPMC"). JPMC did not create or contribute to the development of the Code. This Code is provided AS IS and JPMC makes no warranty of any kind, express or implied, as to the Code, including but not limited to, merchantability, satisfactory quality, non-infringement, title or fitness for a particular purpose or use.
